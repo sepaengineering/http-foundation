@@ -1,5 +1,5 @@
 {
-    "name": "symfony/http-foundation",
+    "name": "sepa/http-foundation-dev",
     "type": "library",
     "description": "Symfony HttpFoundation Component",
     "keywords": [],
