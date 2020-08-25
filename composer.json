@@ -31,7 +31,7 @@
         "symfony/mime": "To use the file extension guesser"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\HttpFoundation\\": "" },
+        "psr-4": { "Symfony\\Component\\HttpFoundationSepa\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
         ]
