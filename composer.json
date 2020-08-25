@@ -1,10 +1,11 @@
 {
-    "name": "sepa/http-foundation-dev",
+    "name": "sepa/http-foundation-sepa",
     "type": "library",
     "description": "Symfony HttpFoundation Component",
     "keywords": [],
     "homepage": "https://symfony.com",
     "license": "MIT",
+    "version": "5.98.3",
     "authors": [
         {
             "name": "Fabien Potencier",
