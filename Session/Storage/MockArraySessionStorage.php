@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage;
 
-use Symfony\Component\HttpFoundation\Session\SessionBagInterface;
+use Symfony\Component\HttpFoundationSepa\Session\SessionBagInterface;
 
 /**
  * MockArraySessionStorage mocks the session for unit tests.

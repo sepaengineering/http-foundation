@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Handler;
 
 /**
  * Session handler using the mongodb/mongodb package and MongoDB driver extension.

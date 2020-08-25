@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\RequestStack;
-use Symfony\Component\HttpFoundation\UrlHelper;
+use Symfony\Component\HttpFoundationSepa\Request;
+use Symfony\Component\HttpFoundationSepa\RequestStack;
+use Symfony\Component\HttpFoundationSepa\UrlHelper;
 use Symfony\Component\Routing\RequestContext;
 
 class UrlHelperTest extends TestCase
@@ -118,7 +118,7 @@ class UrlHelperTest extends TestCase
     public function testGenerateRelativePath($expected, $path, $pathinfo)
     {
         if (!method_exists('Symfony\Component\HttpFoundation\Request', 'getRelativeUriForPath')) {
-            $this->markTestSkipped('Your version of Symfony HttpFoundation is too old.');
+            $this->markTestSkipped('Your version of Symfony HttpFoundationSepa is too old.');
         }
 
         $stack = new RequestStack();

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\File;
+namespace Symfony\Component\HttpFoundationSepa\File;
 
-use Symfony\Component\HttpFoundation\File\Exception\FileException;
-use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\FileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\FileNotFoundException;
 use Symfony\Component\Mime\MimeTypes;
 
 /**

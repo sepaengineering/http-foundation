@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Exception;
+namespace Symfony\Component\HttpFoundationSepa\Exception;
 
 /**
  * Raised when a user sends a malformed request.

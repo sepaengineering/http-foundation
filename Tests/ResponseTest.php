@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
-use Symfony\Component\HttpFoundation\Cookie;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundationSepa\Cookie;
+use Symfony\Component\HttpFoundationSepa\Request;
+use Symfony\Component\HttpFoundationSepa\Response;
 
 /**
  * @group time-sensitive

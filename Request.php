@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
-use Symfony\Component\HttpFoundation\Exception\ConflictingHeadersException;
-use Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException;
-use Symfony\Component\HttpFoundation\Session\SessionInterface;
+use Symfony\Component\HttpFoundationSepa\Exception\ConflictingHeadersException;
+use Symfony\Component\HttpFoundationSepa\Exception\SuspiciousOperationException;
+use Symfony\Component\HttpFoundationSepa\Session\SessionInterface;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(AcceptHeader::class);

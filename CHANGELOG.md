@@ -23,7 +23,7 @@ CHANGELOG
  * added `MarshallingSessionHandler`, `IdentityMarshaller`
  * made `Session` accept a callback to report when the session is being used
  * Add support for all core cache control directives
- * Added `Symfony\Component\HttpFoundation\InputBag`
+ * Added `Symfony\Component\HttpFoundationSepa\InputBag`
  * Deprecated retrieving non-string values using `InputBag::get()`, use `InputBag::all()` if you need access to the collection of values
 
 5.0.0
@@ -180,7 +180,7 @@ CHANGELOG
 
  * added support for ranges of IPs in trusted proxies
  * `UploadedFile::isValid` now returns false if the file was not uploaded via HTTP (in a non-test mode)
- * Improved error-handling of `\Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler`
+ * Improved error-handling of `\Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\PdoSessionHandler`
    to ensure the supplied PDO handler throws Exceptions on error (as the class expects). Added related test cases
    to verify that Exceptions are properly thrown when the PDO queries fail.
 
@@ -217,10 +217,10 @@ CHANGELOG
  * added ResponseHeaderBag::makeDisposition() (implements RFC 6266)
  * made mimetype to extension conversion configurable
  * [BC BREAK] Moved all session related classes and interfaces into own namespace, as
-   `Symfony\Component\HttpFoundation\Session` and renamed classes accordingly.
-   Session handlers are located in the subnamespace `Symfony\Component\HttpFoundation\Session\Handler`.
+   `Symfony\Component\HttpFoundationSepa\Session` and renamed classes accordingly.
+   Session handlers are located in the subnamespace `Symfony\Component\HttpFoundationSepa\Session\Handler`.
  * SessionHandlers must implement `\SessionHandlerInterface` or extend from the
-   `Symfony\Component\HttpFoundation\Storage\Handler\NativeSessionHandler` base class.
+   `Symfony\Component\HttpFoundationSepa\Storage\Handler\NativeSessionHandler` base class.
  * Added internal storage driver proxy mechanism for forward compatibility with
    PHP 5.4 `\SessionHandler` class.
  * Added session handlers for custom Memcache, Memcached and Null session save handlers.
@@ -253,9 +253,9 @@ CHANGELOG
  * Added `AutoExpireFlashBag` (default) to replicate Symfony 2.0.x auto expire
    behavior of messages auto expiring after one page page load.  Messages must
    be retrieved by `get()` or `all()`.
- * Added `Symfony\Component\HttpFoundation\Attribute\AttributeBag` to replicate
+ * Added `Symfony\Component\HttpFoundationSepa\Attribute\AttributeBag` to replicate
    attributes storage behavior from 2.0.x (default).
- * Added `Symfony\Component\HttpFoundation\Attribute\NamespacedAttributeBag` for
+ * Added `Symfony\Component\HttpFoundationSepa\Attribute\NamespacedAttributeBag` for
    namespace session attributes.
  * Flash API can stores messages in an array so there may be multiple messages
    per flash type.  The old `Session` class API remains without BC break as it

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Bridge\PhpUnit\ExpectDeprecationTrait;
-use Symfony\Component\HttpFoundation\InputBag;
+use Symfony\Component\HttpFoundationSepa\InputBag;
 
 class InputBagTest extends TestCase
 {

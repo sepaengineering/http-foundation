@@ -1,6 +1,6 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundationSepa\Response;
 
 $parent = __DIR__;
 while (!@file_exists($parent.'/vendor/autoload.php')) {

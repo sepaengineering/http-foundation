@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler;
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
-use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\NativeFileSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\NullSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy\SessionHandlerProxy;
 
 /**
  * Test class for NativeSessionStorage.

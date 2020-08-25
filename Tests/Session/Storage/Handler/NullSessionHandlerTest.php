@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage\Handler;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Session;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler;
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Session;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\NullSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
 
 /**
  * Test class for NullSessionHandler.

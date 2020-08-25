@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Test\Constraint;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Test\Constraint;
 
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\TestFailure;
-use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\Test\Constraint\ResponseIsRedirected;
+use Symfony\Component\HttpFoundationSepa\Response;
+use Symfony\Component\HttpFoundationSepa\Test\Constraint\ResponseIsRedirected;
 
 class ResponseIsRedirectedTest extends TestCase
 {

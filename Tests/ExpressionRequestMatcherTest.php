@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
-use Symfony\Component\HttpFoundation\ExpressionRequestMatcher;
-use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundationSepa\ExpressionRequestMatcher;
+use Symfony\Component\HttpFoundationSepa\Request;
 
 class ExpressionRequestMatcherTest extends TestCase
 {

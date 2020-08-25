@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\File\Exception;
+namespace Symfony\Component\HttpFoundationSepa\File\Exception;
 
 class UnexpectedTypeException extends FileException
 {

@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session;
+namespace Symfony\Component\HttpFoundationSepa\Session;
 
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface;
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
-use Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBagInterface;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBagInterface;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\SessionStorageInterface;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(AttributeBag::class);

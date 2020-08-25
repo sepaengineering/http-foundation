@@ -1,7 +1,7 @@
-HttpFoundation Component
+HttpFoundationSepa Component
 ========================
 
-The HttpFoundation component defines an object-oriented layer for the HTTP
+The HttpFoundationSepa component defines an object-oriented layer for the HTTP
 specification.
 
 Resources

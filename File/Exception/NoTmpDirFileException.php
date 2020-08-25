@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\File\Exception;
+namespace Symfony\Component\HttpFoundationSepa\File\Exception;
 
 /**
  * Thrown when an UPLOAD_ERR_NO_TMP_DIR error occurred with UploadedFile.

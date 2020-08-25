@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Handler;
 
 use Symfony\Component\Cache\Marshaller\MarshallerInterface;
 

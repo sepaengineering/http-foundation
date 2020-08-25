@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Test\Constraint;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Test\Constraint;
 
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\TestFailure;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Test\Constraint\RequestAttributeValueSame;
+use Symfony\Component\HttpFoundationSepa\Request;
+use Symfony\Component\HttpFoundationSepa\Test\Constraint\RequestAttributeValueSame;
 
 class RequestAttributeValueSameTest extends TestCase
 {

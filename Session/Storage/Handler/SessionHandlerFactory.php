@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Handler;
 
 use Doctrine\DBAL\DriverManager;
 use Symfony\Component\Cache\Adapter\AbstractAdapter;

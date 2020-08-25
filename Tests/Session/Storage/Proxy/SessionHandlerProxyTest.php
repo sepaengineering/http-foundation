@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Proxy;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage\Proxy;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy\SessionHandlerProxy;
 
 /**
  * Tests for SessionHandlerProxy class.

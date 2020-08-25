@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
-use Symfony\Component\HttpFoundation\Session\Storage\PhpBridgeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\PhpBridgeSessionStorage;
 
 /**
  * Test class for PhpSessionStorage.

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundationSepa\RedirectResponse;
 
 class RedirectResponseTest extends TestCase
 {

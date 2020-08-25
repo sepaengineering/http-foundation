@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
-use Symfony\Component\HttpFoundation\Session\Session;
-use Symfony\Component\HttpFoundation\Session\SessionBagProxy;
-use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Session;
+use Symfony\Component\HttpFoundationSepa\Session\SessionBagProxy;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\MockArraySessionStorage;
 
 /**
  * SessionTest.
@@ -28,12 +28,12 @@ use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 class SessionTest extends TestCase
 {
     /**
-     * @var \Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface
+     * @var \Symfony\Component\HttpFoundationSepa\Session\Storage\SessionStorageInterface
      */
     protected $storage;
 
     /**
-     * @var \Symfony\Component\HttpFoundation\Session\SessionInterface
+     * @var \Symfony\Component\HttpFoundationSepa\Session\SessionInterface
      */
     protected $session;
 

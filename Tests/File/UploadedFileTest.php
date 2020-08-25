@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\File;
+namespace Symfony\Component\HttpFoundationSepa\Tests\File;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\File\Exception\CannotWriteFileException;
-use Symfony\Component\HttpFoundation\File\Exception\ExtensionFileException;
-use Symfony\Component\HttpFoundation\File\Exception\FileException;
-use Symfony\Component\HttpFoundation\File\Exception\FormSizeFileException;
-use Symfony\Component\HttpFoundation\File\Exception\IniSizeFileException;
-use Symfony\Component\HttpFoundation\File\Exception\NoFileException;
-use Symfony\Component\HttpFoundation\File\Exception\NoTmpDirFileException;
-use Symfony\Component\HttpFoundation\File\Exception\PartialFileException;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
+use Symfony\Component\HttpFoundationSepa\File\Exception\CannotWriteFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\ExtensionFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\FileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\FormSizeFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\IniSizeFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\NoFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\NoTmpDirFileException;
+use Symfony\Component\HttpFoundationSepa\File\Exception\PartialFileException;
+use Symfony\Component\HttpFoundationSepa\File\UploadedFile;
 
 class UploadedFileTest extends TestCase
 {

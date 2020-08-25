@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(AcceptHeaderItem::class);

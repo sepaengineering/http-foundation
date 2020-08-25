@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Handler;
 
 /**
  * Session handler using a PDO connection to read and write data.

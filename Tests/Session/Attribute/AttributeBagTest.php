@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Attribute;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Attribute;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
 
 /**
  * Tests AttributeBag.

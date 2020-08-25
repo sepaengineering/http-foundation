@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\File;
+namespace Symfony\Component\HttpFoundationSepa\Tests\File;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\File\File;
+use Symfony\Component\HttpFoundationSepa\File\File;
 
 /**
  * @requires extension fileinfo

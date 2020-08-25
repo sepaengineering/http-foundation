@@ -13,7 +13,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="Symfony HttpFoundation Component Test Suite">
+        <testsuite name="Symfony HttpFoundationSepa Component Test Suite">
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>

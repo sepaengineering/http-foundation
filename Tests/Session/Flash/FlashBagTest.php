@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Flash;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Flash;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
 
 /**
  * FlashBagTest.
@@ -22,7 +22,7 @@ use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
 class FlashBagTest extends TestCase
 {
     /**
-     * @var \Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface
+     * @var \Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBagInterface
      */
     private $bag;
 

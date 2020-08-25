@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag;
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
-use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Attribute\AttributeBag;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\MockArraySessionStorage;
 
 /**
  * Test class for MockArraySessionStorage.

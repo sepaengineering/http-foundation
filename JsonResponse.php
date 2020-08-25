@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
 /**
  * Response represents an HTTP response in JSON format.

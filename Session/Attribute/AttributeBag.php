@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Attribute;
+namespace Symfony\Component\HttpFoundationSepa\Session\Attribute;
 
 /**
  * This class relates to session attribute storage.

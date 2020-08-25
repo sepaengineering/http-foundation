@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage\Handler;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\MongoDbSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\MongoDbSessionHandler;
 
 /**
  * @author Markus Bachmann <markus.bachmann@bachi.biz>

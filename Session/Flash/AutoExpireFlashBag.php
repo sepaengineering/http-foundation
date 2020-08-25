@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Flash;
+namespace Symfony\Component\HttpFoundationSepa\Session\Flash;
 
 /**
  * AutoExpireFlashBag flash message container.

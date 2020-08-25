@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\File\Exception;
+namespace Symfony\Component\HttpFoundationSepa\File\Exception;
 
 /**
  * Thrown when an UPLOAD_ERR_FORM_SIZE error occurred with UploadedFile.

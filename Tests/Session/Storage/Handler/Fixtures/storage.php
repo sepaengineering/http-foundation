@@ -2,8 +2,8 @@
 
 require __DIR__.'/common.inc';
 
-use Symfony\Component\HttpFoundation\Session\Flash\FlashBag;
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Flash\FlashBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
 
 $storage = new NativeSessionStorage();
 $storage->setSaveHandler(new TestSessionHandler());

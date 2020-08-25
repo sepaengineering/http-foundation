@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Exception\SuspiciousOperationException;
-use Symfony\Component\HttpFoundation\InputBag;
-use Symfony\Component\HttpFoundation\ParameterBag;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Session\Session;
-use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
+use Symfony\Component\HttpFoundationSepa\Exception\SuspiciousOperationException;
+use Symfony\Component\HttpFoundationSepa\InputBag;
+use Symfony\Component\HttpFoundationSepa\ParameterBag;
+use Symfony\Component\HttpFoundationSepa\Request;
+use Symfony\Component\HttpFoundationSepa\Session\Session;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\MockArraySessionStorage;
 
 class RequestTest extends TestCase
 {

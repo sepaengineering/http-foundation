@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Proxy;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy;
 
 /**
  * @author Drak <drak@zikula.org>

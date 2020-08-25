@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\File;
+namespace Symfony\Component\HttpFoundationSepa\Tests\File;
 
-use Symfony\Component\HttpFoundation\File\File as OrigFile;
+use Symfony\Component\HttpFoundationSepa\File\File as OrigFile;
 
 class FakeFile extends OrigFile
 {

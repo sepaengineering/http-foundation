@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session;
+namespace Symfony\Component\HttpFoundationSepa\Session;
 
-use Symfony\Component\HttpFoundation\Session\Storage\MetadataBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\MetadataBag;
 
 /**
  * Interface for the session.

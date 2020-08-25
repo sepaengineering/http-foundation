@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
-use Symfony\Component\HttpFoundation\Exception\BadRequestException;
+use Symfony\Component\HttpFoundationSepa\Exception\BadRequestException;
 
 /**
  * ParameterBag is a container for key/value pairs.

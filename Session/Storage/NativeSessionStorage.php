@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage;
 
-use Symfony\Component\HttpFoundation\Session\SessionBagInterface;
-use Symfony\Component\HttpFoundation\Session\SessionUtils;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler;
-use Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy;
-use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
+use Symfony\Component\HttpFoundationSepa\Session\SessionBagInterface;
+use Symfony\Component\HttpFoundationSepa\Session\SessionUtils;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\StrictSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy\AbstractProxy;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy\SessionHandlerProxy;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(MetadataBag::class);

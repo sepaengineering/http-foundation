@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Storage\MetadataBag;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\MetadataBag;
 
 /**
  * Test class for MetadataBag.

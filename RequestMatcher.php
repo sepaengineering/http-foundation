@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
 /**
  * RequestMatcher compares a pre-defined set of checks against a Request instance.

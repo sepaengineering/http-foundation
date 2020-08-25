@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage\Handler;
 
-use Symfony\Component\HttpFoundation\Session\SessionUtils;
+use Symfony\Component\HttpFoundationSepa\Session\SessionUtils;
 
 /**
  * This abstract session handler provides a generic implementation

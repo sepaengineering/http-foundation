@@ -2,7 +2,7 @@
 
 require __DIR__.'/common.inc';
 
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
 
 $storage = new NativeSessionStorage(['cookie_samesite' => 'lax']);
 $storage->setSaveHandler(new TestSessionHandler());

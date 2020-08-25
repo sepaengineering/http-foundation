@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage\Handler;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\IdentityMarshaller;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\IdentityMarshaller;
 
 /**
  * @author Ahmed TAILOULOUTE <ahmed.tailouloute@gmail.com>

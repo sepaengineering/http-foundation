@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage;
 
 /**
  * MockFileSessionStorage is used to mock sessions for

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Test\Constraint;
+namespace Symfony\Component\HttpFoundationSepa\Test\Constraint;
 
 use PHPUnit\Framework\Constraint\Constraint;
-use Symfony\Component\HttpFoundation\Cookie;
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundationSepa\Cookie;
+use Symfony\Component\HttpFoundationSepa\Response;
 
 final class ResponseCookieValueSame extends Constraint
 {

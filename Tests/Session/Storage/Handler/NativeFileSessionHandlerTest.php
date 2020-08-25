@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests\Session\Storage\Handler;
+namespace Symfony\Component\HttpFoundationSepa\Tests\Session\Storage\Handler;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler;
-use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Handler\NativeFileSessionHandler;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\NativeSessionStorage;
 
 /**
  * Test class for NativeFileSessionHandler.

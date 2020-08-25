@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation;
+namespace Symfony\Component\HttpFoundationSepa;
 
-use Symfony\Component\HttpFoundation\File\Exception\FileException;
-use Symfony\Component\HttpFoundation\File\File;
+use Symfony\Component\HttpFoundationSepa\File\Exception\FileException;
+use Symfony\Component\HttpFoundationSepa\File\File;
 
 /**
  * BinaryFileResponse represents an HTTP response delivering a file.

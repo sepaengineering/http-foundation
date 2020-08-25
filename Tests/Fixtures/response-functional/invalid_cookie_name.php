@@ -1,6 +1,6 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Cookie;
+use Symfony\Component\HttpFoundationSepa\Cookie;
 
 $r = require __DIR__.'/common.inc';
 

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Test\Constraint;
+namespace Symfony\Component\HttpFoundationSepa\Test\Constraint;
 
 use PHPUnit\Framework\Constraint\Constraint;
-use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundationSepa\Request;
 
 final class RequestAttributeValueSame extends Constraint
 {

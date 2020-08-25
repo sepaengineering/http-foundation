@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Symfony\Component\HttpFoundation\FileBag;
+use Symfony\Component\HttpFoundationSepa\File\UploadedFile;
+use Symfony\Component\HttpFoundationSepa\FileBag;
 
 /**
  * FileBagTest.

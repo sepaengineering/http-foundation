@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Exception\BadRequestException;
-use Symfony\Component\HttpFoundation\ParameterBag;
+use Symfony\Component\HttpFoundationSepa\Exception\BadRequestException;
+use Symfony\Component\HttpFoundationSepa\ParameterBag;
 
 class ParameterBagTest extends TestCase
 {

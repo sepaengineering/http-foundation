@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\AcceptHeader;
-use Symfony\Component\HttpFoundation\AcceptHeaderItem;
+use Symfony\Component\HttpFoundationSepa\AcceptHeader;
+use Symfony\Component\HttpFoundationSepa\AcceptHeaderItem;
 
 class AcceptHeaderTest extends TestCase
 {

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Session\Storage;
+namespace Symfony\Component\HttpFoundationSepa\Session\Storage;
 
-use Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy;
+use Symfony\Component\HttpFoundationSepa\Session\Storage\Proxy\AbstractProxy;
 
 /**
  * Allows session to be started by PHP and managed by Symfony.

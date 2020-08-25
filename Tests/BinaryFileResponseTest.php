@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Component\HttpFoundation\Tests;
+namespace Symfony\Component\HttpFoundationSepa\Tests;
 
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Symfony\Component\HttpFoundation\File\Stream;
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\ResponseHeaderBag;
-use Symfony\Component\HttpFoundation\Tests\File\FakeFile;
+use Symfony\Component\HttpFoundationSepa\BinaryFileResponse;
+use Symfony\Component\HttpFoundationSepa\File\Stream;
+use Symfony\Component\HttpFoundationSepa\Request;
+use Symfony\Component\HttpFoundationSepa\ResponseHeaderBag;
+use Symfony\Component\HttpFoundationSepa\Tests\File\FakeFile;
 
 class BinaryFileResponseTest extends ResponseTestCase
 {
